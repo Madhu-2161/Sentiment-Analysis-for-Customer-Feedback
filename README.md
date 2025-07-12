@@ -2,7 +2,6 @@
 
 This project presents a comprehensive analysis of customer reviews collected from a banking service. It aims to classify the sentiment behind each review using a combination of rule-based, classical machine learning, and deep learning methods, including transformer-based models.
 
----
 
 ## 📌 Objective
 
