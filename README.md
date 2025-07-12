@@ -3,11 +3,12 @@
 This project presents a comprehensive analysis of customer reviews collected from a banking service. It aims to classify the sentiment behind each review using a combination of rule-based, classical machine learning, and deep learning methods, including transformer-based models.
 
 
+
 ## 📌 Objective
 
 To identify the sentiment expressed in customer feedback — whether **positive**, **neutral**, or **negative** — and to compare multiple modeling approaches to determine the most suitable one for customer-facing financial data.
 
----
+
 
 ## 📁 Dataset Description
 
@@ -26,7 +27,7 @@ Rating == 3  → Neutral
 Rating <= 2  → Negative
 ```
 
----
+
 
 ## 🧪 Project Workflow
 
@@ -88,7 +89,7 @@ Rating <= 2  → Negative
   - Model precision/recall trade-offs
   - Sentiment agreement between tools (VADER vs TextBlob)
 
----
+
 
 ## 📊 Visualizations
 
@@ -98,7 +99,7 @@ Rating <= 2  → Negative
 - PCA plots for high-dimensional embeddings
 - Bar charts comparing model performance metrics
 
----
+
 
 ## 📦 Dependencies
 
@@ -113,7 +114,7 @@ import nltk
 nltk.download('vader_lexicon')
 ```
 
----
+
 
 ## ✅ Future Improvements
 
@@ -122,7 +123,7 @@ nltk.download('vader_lexicon')
 - Extend to multilingual datasets
 - Incorporate sarcasm detection and contextual sentiment shifts
 
----
+
 
 ## 👩‍💻 Author
 
