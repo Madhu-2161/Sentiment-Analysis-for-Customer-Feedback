@@ -4,13 +4,13 @@ This project presents a comprehensive analysis of customer reviews collected fro
 
 
 
-## 📌 Objective
+##  Objective
 
 To identify the sentiment expressed in customer feedback — whether **positive**, **neutral**, or **negative** — and to compare multiple modeling approaches to determine the most suitable one for customer-facing financial data.
 
 
 
-## 📁 Dataset Description
+##  Dataset Description
 
 - **Source**: Bank reviews collected from real users.
 - **Format**: CSV file containing various fields including:
@@ -29,7 +29,7 @@ Rating <= 2  → Negative
 
 
 
-## 🧪 Project Workflow
+##  Project Workflow
 
 ### 1️⃣ Data Cleaning & Preprocessing
 - Removed irrelevant fields (`bank_image`, etc.)
@@ -91,7 +91,7 @@ Rating <= 2  → Negative
 
 
 
-## 📊 Visualizations
+##  Visualizations
 
 - Monthly trends in feedback submission
 - City-wise sentiment distribution
@@ -101,7 +101,7 @@ Rating <= 2  → Negative
 
 
 
-## 📦 Dependencies
+##  Dependencies
 
 Install required libraries with:
 ```bash
@@ -116,7 +116,7 @@ nltk.download('vader_lexicon')
 
 
 
-## ✅ Future Improvements
+##  Future Improvements
 
 - Deploy the best model via REST API using Flask/FastAPI
 - Add interpretability using LIME/SHAP
