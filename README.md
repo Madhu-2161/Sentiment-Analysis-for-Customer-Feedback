@@ -8,7 +8,7 @@ This Streamlit app analyzes customer feedback submitted to banks and performs:
 
 
 
-## 🔍 Features
+##  Features
 
 -  Upload a `.csv` file with feedback and city names
 -  Uses RoBERTa model (`cardiffnlp/twitter-roberta-base-sentiment`) for sentiment prediction
@@ -34,7 +34,7 @@ Column names must be exactly: `City`, `Feedback`
 
 
 
-## 🧠 Models Used
+##  Models Used
 
 - **Sentiment Analysis**: [`cardiffnlp/twitter-roberta-base-sentiment`](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment)
 - **Department Classification**: Rule-based on keywords (e.g., "loan", "app", "support")
