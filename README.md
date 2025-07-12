@@ -125,7 +125,7 @@ nltk.download('vader_lexicon')
 
 
 
-## 👩‍💻 Author
+##  Author
 
 **Madhu Kumari**  
 Natural Language Processing Enthusiast | Applied Machine Learning
